@@ -23,16 +23,8 @@ Thumbs.db
 # Local env files
 .env
 
-# Generated data
+# Keep raw data private / optional
 data/raw/*
 !data/raw/.gitkeep
 
-data/processed/*
-!data/processed/.gitkeep
-
-# Generated outputs
-outputs/charts/*
-!outputs/charts/.gitkeep
-
-outputs/reports/*
-!outputs/reports/.gitkeep
+# Keep processed data and final outputs visible to interviewer
